@@ -1,0 +1,52 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+header {
+    background-color: #24292e; /* Dark background for header */
+    color: #fff; /* White text for header */
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px; /* Rounded corners for sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    color: #0366d6; /* Blue for section titles */
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eaecef; /* Light border under titles */
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: square; /* Square bullet points */
+    margin-left: 1.5rem;
+}
+
+footer {
+    background-color: #24292e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
